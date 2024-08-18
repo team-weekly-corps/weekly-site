@@ -1,0 +1,161 @@
+@import "../../styles.scss";
+
+.navbar-brand {
+  margin: 0;
+  img {
+    width: 100px;
+  }
+}
+.main-container {
+  padding: 80px 40px;
+}
+
+#hero {
+  .title {
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+    h1 {
+      font-size: 120px;
+      font-weight: 700;
+    }
+
+    span {
+      position: relative;
+      img {
+        position: absolute;
+        width: 20px;
+        bottom: 25px;
+      }
+    }
+  }
+  .desc-text {
+    font-size: 20px;
+  }
+}
+
+#about-card {
+  padding: 80px 0;
+}
+.card {
+  color: white !important;
+  background: transparent !important;
+  border: 0 !important;
+  img {
+    height: 300px;
+    object-fit: contain;
+    background: #010101;
+    border-radius: 25px !important;
+    filter: grayscale(1);
+  }
+  .card-body {
+    padding: 20px 0 !important;
+    .card-title {
+      font-weight: 700;
+    }
+    .card-desc {
+      font-weight: 600;
+    }
+  }
+}
+
+#footer{
+  padding: 80px 0 0px;
+  .footer-text{
+    font-size: 120px;
+    font-weight: 700;
+
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  h1 {
+    font-size: 100px !important;
+  }
+  .card {
+    img {
+      height: 250px;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .card {
+    img {
+      height: 200px;
+    }
+  }
+  h1 {
+    font-size: 80px !important;
+  }
+  .title {
+    span {
+      img {
+        width: 15px !important;
+        bottom: 12px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 60px !important;
+  }
+  .row-cols-md-4>* {
+    width: 50% !important;
+  }
+  .card {
+    img {
+      height: 300px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+      img {
+        height: 250px;
+      }
+    }
+  h1 {
+    font-size: 40px !important;
+  }
+  .title {
+    span {
+      img {
+        width: 8px !important;
+        bottom: 8px !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 668px) {
+.row-cols-md-4>* {
+    width: 100% !important;
+  }
+  .card-body{
+    padding: 20px !important;
+      text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+
+  .title {
+    padding: 40px 0 !important;
+  }
+
+  .main-container {
+      padding: 40px 40px !important;
+    }
+  .desc-text {
+    font-size: 12px !important;
+  }
+}
+
+
+@media screen and (max-width: 300px) {
+.card {
+    img {
+      object-fit: cover;
+    }
+  }
+}
