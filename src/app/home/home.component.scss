@@ -32,6 +32,7 @@
   .desc-text {
     font-size: 20px;
   }
+
 }
 
 #about-card {
@@ -56,10 +57,14 @@
     .card-desc {
       font-weight: 600;
     }
+    .card-text {
+      font-size: 12px !important;
+    }
   }
 }
 
 #footer{
+
   padding: 80px 0 0px;
   .footer-text{
     font-size: 120px;
